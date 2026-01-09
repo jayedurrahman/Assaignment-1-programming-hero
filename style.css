@@ -2,10 +2,14 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+/* *{
+  margin: 0 auto;
+} */
+
 nav{
-  /* width: 100%; */
+  
   border: 2px solid black;
-  /* width: 98%; */
+  width: 100%;
   max-width: 1600px;
   height: 92px;
   background-color: #FFFFFF;
@@ -39,4 +43,175 @@ nav .nav-bar{
   border: none;
   color: #FFFFFF;
   font-weight: 600;
+}
+#hero{
+  background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+  margin: 0 auto; 
+  height: 674px;
+  width:100%;
+  max-width: 1600px; 
+
+}
+#hero .hero-container{
+  padding: 115.5px 120px 179.5px;
+  
+}
+
+.hero-container{
+  text-align: center;
+  
+}
+.hero-container .hero-button button{
+  border-radius: 1000px;
+  width: 229px;
+  height: 35px;
+  font-size: 16px;
+  color: #30B868;
+  padding: 8px 12px;
+  gap: 6px;
+}
+.hero-header h1{
+margin-top: 16px;
+}
+.hero-header .white{
+  color: #FFFFFF;
+}
+.hero-header .green{
+  color: #30B868;
+}
+.hero-container .hero-paragraph{
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.hero-bottom-button .color{
+  color: #FFFFFF;
+  background-color: #30B868;
+  font-size: 16px;
+  width: 251px;
+  height: 52px;
+  border-radius: 4px;
+  border: none;
+}
+.hero-bottom-button .no-color{
+  width: 198px;
+  height: 52px;
+  border-radius: 4px;
+}
+.banner-heading{
+  border: 2px solid black;
+  width: 79%;
+  max-width: 1360px;
+  height: 117px;
+  margin: 0 auto;
+  vertical-align: bottom;
+  
+}
+.banner-paragraph{
+  font-size: 16px;
+  height: 20px;
+  width: 79%;
+  max-width: 1360px;
+  margin: 0 auto;
+  color: #627382;
+  
+}
+.banner-container{
+  text-align: center;
+  /* line-height: 16px; */
+}
+.middle-container{
+  display: flex;
+  gap: 24px;
+  
+  
+  
+
+}
+.middle-content{
+  width: 322px;
+  height: 300px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 8px #000000;
+  
+  
+  
+  
+  
+}
+.middle-content img{
+  width: 60px;
+  height: 60px;
+  background-color: #F95555;
+  margin: 70px 131px 16px 131px;
+}
+.middle-content h4{
+  /* width: 274px;
+  height: 29px; */
+  border: 2px solid black;
+  margin-top: 0;
+  
+  text-align: center;
+}
+.middle-content p{
+  text-align: center;
+  margin: 16px 24px 70px 24px;
+}
+#middle{
+  width: 100%;
+  max-width: 1360px;
+  border: 2px solid red;
+  margin:  0 auto;
+}
+
+.brain-main{
+  display: flex;
+  gap: 60px;
+ 
+}
+#brain-sector{
+  width: 80%;
+  max-width: 1360px;
+  height:600px ;
+  margin: 0 auto;
+  margin-top: 120px;
+  
+   
+  border: 2px solid black;
+}
+.brainless{
+ padding: 106px 0px;
+}
+.brain img{
+  height: 600px;
+  width: 600px;
+}
+.brainless .p1{
+  color: #30B868;
+  line-height: 20px;
+  font-size: 16px;
+}
+.brainless .h2{
+  font-size: 48px;
+  line-height: auto;
+}
+.brainless .p2{
+  color: #627382;
+  line-height: 16px;
+}
+#main-last{
+  border: 2px solid black;
+  margin-top: 120px;
+  width: 94%;
+  max-width: 1600px;
+  height: 506px;
+}
+.last-header{
+  border: 2px solid black;
+  margin: 80px 40px 0px 40px;
+  width: 72%;
+  max-width: 1240px;
+  text-align: center;
 }
